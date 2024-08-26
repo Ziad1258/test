@@ -1,2 +1,2 @@
-# simple form using html and css 
-## only large screens
+simple form using html and css 
+only large screens
