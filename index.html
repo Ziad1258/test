@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Preconnect for optimized loading of Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Link to Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Main container wrapping all content -->
+    <div class="container">
+
+        <!-- Login form -->
+        <form id="login">
+
+            <!-- Form header section with title and subtitle -->
+            <div class="formHeader">
+                <h1 class="headerTitle">LOGIN</h1>
+                <p class="headerSubtitle">How do I get started? Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <!-- Form inputs section -->
+            <div class="formInputs">
+                
+                <!-- Username input field -->
+                <div class="inputHolder">
+                    <input id="username" name="username" type="text" placeholder="Username">
+                    <div class="inputPlaceHolder">
+                        <img class="inputImg" src="images/Frame.svg" alt="Username Icon">
+                    </div>
+                </div>
+
+                <!-- Password input field -->
+                <div class="inputHolder">
+                    <input id="password" name="password" type="password" placeholder="Password">
+                    <div class="inputPlaceHolder">
+                        <img class="inputImg" src="images/Vector.svg" alt="Password Icon">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Login buttons section -->
+            <div class="logInButtons">
+
+                <!-- Primary login button -->
+                <button class="logInNow" type="submit">Login Now</button>
+
+                <!-- Alternate login methods -->
+                <div class="logInWithOthers">
+                    <div class="title">
+                        <h3>Login <span>with Others</span></h3>
+                    </div>
+
+                    <div class="otherButtons">
+                        <!-- Google login button -->
+                        <button type="button">
+                            <img src="images/google.png" alt="Google Icon">
+                            <p>Login with <span>Google</span></p>
+                        </button>
+
+                        <!-- Facebook login button -->
+                        <button type="button">
+                            <img src="images/facebook 1.png" alt="Facebook Icon">
+                            <p>Login with <span>Facebook</span></p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!-- Poster section (could be for promotional content) -->
+        <div class="poster">
+            <div class="posterBox">
+                <h1 class="title">Great opportunities are waiting for you. Login Now!</h1>
+
+                <!-- Image of a woman (optional description) -->
+                <div class="womenPic">
+                    <img src="images/women.png" alt="Woman Image">
+                </div>
+
+                <!-- Thunderbolt icon -->
+                <div class="thunderbolt">
+                    <img src="images/thunderbolt.png" alt="Thunderbolt Icon">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
